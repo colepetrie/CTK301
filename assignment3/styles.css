@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+    background-color: blue;
+}
+
+h2 {
+    color: green;
+    background-color: orange;
+}
+
+h3 {
+    background-color: green;
+    color: orange;
+}
+
+h4 {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+nav {
+    color: blueviolet;
+    background-color: yellow;
+}
+
+#contact {
+    color: white;
+    background-color: black;
+}
+
+main {
+    color: red;
+    background-color: blue;
+}
+
+.description {
+    background-color: red;
+    color: blue;
+}
+
+.course {
+    color: white;
+    background-color: black;
+}
+
+.bold {
+    color: black;
+}
+
+.ctk {
+    color: wheat;
+    background-color: brown;
+
+}
+
+/* links */
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a::after {
+    color: green;
+}
+

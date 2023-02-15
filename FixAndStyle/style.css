@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+.poison {
+    background-color: rgb(125, 113, 219);
+}
+
+.redtext {
+    color: red;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.daughter {
+    background-color: yellow;
+}
+
+.blueDoctor {
+    color: blue;
+    font-weight: bold;
+}
+
+#doctor {
+    color: orange;
+    font-weight: bold;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

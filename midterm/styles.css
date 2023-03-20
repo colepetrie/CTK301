@@ -1,0 +1,193 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid blue;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* header */
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #2974e5, #0061e2, #004cdd, #0035d5, #0913cb);
+    padding: 10px;
+    padding-left: 45px;
+    font-style: italic;
+    font-family:  Helvetica, Arial;
+}
+
+header a{
+    color: lightblue;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+}
+
+/* Navigation */
+nav {
+    grid-column: span 12;
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 207px;
+    height: 25px;
+    margin: 5x;
+    padding: 10px;
+    padding-left: 20px;
+    background-image: linear-gradient(to bottom, #2974e5, #0061e2, #004cdd, #0035d5, #0913cb);
+    display: inline-block;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav li a {
+    color: lightblue;
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+h2 {
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid blue;
+    font-family: Helvetica, Arial;
+    font-weight: normal;
+}
+
+p {
+    font-family: Georgia, serif;
+}
+
+p a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Footer */
+footer {
+    background-color: red;
+    grid-column: span 12;
+    border-top: 5px solid blue;
+    padding: 10px;
+}
+
+/* CLASSES */
+/*welcome class*/
+.welcome {
+    background-color: lightblue;
+    grid-column: span 4;
+}
+
+.welcome p {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* another class */
+.another {
+    grid-column: span 8;
+}
+
+.another img {
+    border: 3px solid blue;
+    margin: 15px;
+    float: left;
+}
+
+.another p {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* about class */
+.about {
+    grid-column: span 8;
+}
+
+.about img {
+    border: 3px solid blue;
+    margin: 15px;
+    float: right;
+}
+
+.about p {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* info class */
+.info {
+    grid-column: span 4;
+    background-color: lightblue;
+    padding: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.evelyn {
+    grid-column: span 4;
+}
+
+.evelyn img {
+    margin: 15px;
+    width: 275px;
+}
+
+.evelyn p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.waymond {
+    grid-column: span 4;
+}
+
+.waymond img {
+    margin: 15px;
+    width: 275px;
+}
+
+.waymond p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.joy {
+    grid-column: span 4;
+}
+
+.joy p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.joy img {
+    margin: 15px;
+    width: 275px;
+}
